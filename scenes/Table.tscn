@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="Table" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="Status" type="Label" parent="."]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 680.0
+offset_bottom = 72.0
+text = "Статус"
+
+[node name="DrawBtn" type="Button" parent="."]
+offset_left = 16.0
+offset_top = 96.0
+offset_right = 200.0
+offset_bottom = 152.0
+text = "Взяти карту"
+
+[node name="PassBtn" type="Button" parent="."]
+offset_left = 220.0
+offset_top = 96.0
+offset_right = 404.0
+offset_bottom = 152.0
+text = "Пас"
+
+[node name="AutoBtn" type="Button" parent="."]
+offset_left = 428.0
+offset_top = 96.0
+offset_right = 612.0
+offset_bottom = 152.0
+text = "Auto"
+
+[ext_resource type="Script" path="res://scripts/Game.gd" id="1"]
