@@ -1,0 +1,27 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+; 
+; Format: 2D Variant
+
+config_version=5
+
+[_global_script_classes]
+
+[_global_script_class_icons]
+
+[application]
+
+config/name="Бридж"
+run/main_scene="res://scenes/Table.tscn"
+config/version="1.0.0"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
